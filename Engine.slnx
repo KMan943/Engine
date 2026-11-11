@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Sandbox/Sandbox.vcxproj" DefaultStartup="true" Id="5d6d00d5-7064-4364-88e0-820be84809ce" />
+  <Project Path="Engine/Engine.vcxproj" Id="ab747327-69d7-43e9-8b13-51816408803c" />
+</Solution>
