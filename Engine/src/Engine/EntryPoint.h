@@ -5,6 +5,12 @@
 
 	int main(int argc, char** argv)
 	{
+		Engine::Log::Init();
+
+		ENG_CORE_WARN("Initialized Core Logger!");
+		int a = 5;
+		ENG_INFO("Initialized Client Logger! Var: {0}", a);
+
 		auto app = Engine::CreateApplication();
 		app->Run();
 		delete app;
